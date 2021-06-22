@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Welcome to MANTA-TEC
 
-You can use the [editor on GitHub](https://github.com/fabmanta/MantaTEC/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+_MANTA-TEC_ is a set of algorithms created in Matlab for modeling kinematically-described deformation from rectangular dislocations within a half-space, or layered medium.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Created by the [Newman Research Group at Georgia Tech](http://geophysics.eas.gatech.edu/anewman).
 
-### Markdown
+## Current version
+[![DOI](https://zenodo.org/badge/283332126.svg)](https://zenodo.org/badge/latestdoi/283332126)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting started
+Within each version (starting with v4.0), there is a documentation directory that contains web-based step-by-step information on how to run the code, with specific case examples.  The [examples and documentation are also linked here](./documentation/).
 
+### running code is easy
 ```markdown
-Syntax highlighted code block
+# Add code to path (in Matlab)
+addpath ('/path/to/GTdef/stable/') %replacing with your actual path
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# requires only a simple call (in Matlab)
+GTdef('example.in')
 ```
+## Documentation/Examples
+[Link to documentation](./documentation/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fabmanta/MantaTEC/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Contributors
+Fabio Manta, [Institut de physique du globe de Paris (IPGP); Centre national d'études spatiales (CNES)](http://www.ipgp.fr/en/user/45138)  

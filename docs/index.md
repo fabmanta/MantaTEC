@@ -2,7 +2,7 @@
 
 _MANTA-TEC_ is a set of algorithms created in Matlab for modeling kinematically-described deformation from rectangular dislocations within a half-space, or layered medium.
 
-Created by the [Newman Research Group at Georgia Tech](http://geophysics.eas.gatech.edu/anewman).
+Created by Fabio Manta [Institut de physique du globe de Paris (IPGP)](http://www.ipgp.fr/en/user/45138).
 
 ## Current version
 [![DOI](https://zenodo.org/badge/283332126.svg)](https://zenodo.org/badge/latestdoi/283332126)
@@ -22,4 +22,4 @@ GTdef('example.in')
 [Link to documentation](./documentation/)
 
 ## Contributors
-Fabio Manta, [Institut de physique du globe de Paris (IPGP); Centre national d'études spatiales (CNES)](http://www.ipgp.fr/en/user/45138)  
+Giovanni Occhipinti, [Institut de physique du globe de Paris (IPGP)](http://www.ipgp.fr/fr/occhipinti-giovanni)  

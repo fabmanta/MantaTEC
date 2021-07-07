@@ -4,7 +4,7 @@
 
 %% Main Loop for station
 % It returns a stroucture .mat file for each station with respect to all sat 
-function rinex211_processor(rinexDirectory,sp3fileName,ionexFileName,outputDirectory,...
+function MANTA_TEC(rinexDirectory,sp3fileName,ionexFileName,outputDirectory,...
     Year,defaultTimeInterval,lon_epi,lat_epi,altitutePPI,alt_ion,Tmin,Tmax,SITE_COORD,highFreq,lowFreq,ele_cutoff)
 
 %     staz_NAME.PRNxx(01)  = Time

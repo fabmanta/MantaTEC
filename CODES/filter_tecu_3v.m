@@ -25,9 +25,13 @@ end
             
             if (find_gap)> 0
                 [ ~, block_starts,block_ends,block_lengths] = getBlockIndices(tecuRaw(:,ind_sat),NaN);
+                Numb_blocks = length(block_lengths);
+            else
+                block_starts = 1;
+                block_ends = length(tecuRaw(:,ind_sat));
+                block_lengths = length(tecuRaw(:,ind_sat));
+                Numb_blocks = 1;
             end
-            Numb_blocks = length(block_lengths);
-
 
             for bn = 1:Numb_blocks
                if block_lengths(bn) <= 24
